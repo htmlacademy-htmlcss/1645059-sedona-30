@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Кристина Никулина](https://up.htmlacademy.ru/htmlcss/30/user/1645059).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Панасюк] (https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
