@@ -1,0 +1,236 @@
+:root {
+    --basic-black: #000000;
+    --basic-white: #ffffff;
+    --basic-gray:#333333;
+    --basic-dim-gray:#666666;
+    --basic-dirty-white:#EBEBEB;
+    --basic-deep-gray:#BDBBBC;
+    --basic-light-gray:#888888;
+    --basic-light-blue:#81B3D2;
+    --basic-middle-blue:#669EC0;
+    --basic-deep-blue:#5496BD;
+    --basic-light-brown:#766357;
+    --basic-middle-brown:#604E43;
+    --basic-dark-brown:#503E33;
+    --basic-special:#F2F2F2;
+    --light-black:#E5E5E5;
+}
+@font-face {
+    font-family: "PTSans";
+    src: local("PTSans"),
+    url("PTSans.woff2") format("woff2"),
+    url("PTSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+    font-family: "PTSans-Bold";
+    src: local("PTSans-Bold"),
+       url("PTSans-Bold.woff2") format("woff2"),
+       url("PTSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-white);
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover {
+
+  background-color: var(--basic-white);
+  color: var(--basic-light-blue);
+}
+
+.site-navigation a:active {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.background-view {
+  position:relative;
+}
+
+.bottom {
+  width: 1200px;
+  height: 509px;
+}
+
+.top {
+  position:absolute;
+  top: 80px;
+  left: 400px;;
+}
+
+.top-2 {
+  position: absolute;
+  width: 1200px;
+  bottom: 5px;
+}
+
+.arguments-list {
+  list-style: none;
+}
+
+.argument-item {
+  text-align: center;
+}
+
+.argument-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-light-blue);
+  border: none;
+}
+
+.button:hover {
+  background-color: var(--basic-middle-blue);
+}
+
+.button:active {
+  background-color: var(--basic-deep-blue);
+  cursor: default;
+}
+
+.contacts-phone {
+  color: inherit;
+}
+
+.appointment-button {
+  background-color: var(--basic-light-brown);
+  color: var(--basic-white);
+  font-weight: 700;
+}
+
+.appointment-button:hover {
+  background-color: var(--basic-middle-brown);
+}
+
+.appointment-button:active {
+  background-color: var(--basic-dark-brown);
+}
+
+.appointment-item {
+
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+
+.appointment-item input {
+  font: inherit;
+  color: var(--basic-black);
+  background-color: var(--basic-special);
+  font-weight: bold;
+}
+
+.appointment-item input:focus {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+  border: 2px solid #E5E5E5;;
+}
+
+.appointment-item:hover {
+  background-color: var(--basic-dirty-white);
+  color: var(--basic-black);
+}
+
+.main-footer {
+  font-weight: 700;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: var(--basic-black);
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: inherit;
+  background-color: var(--basic-light-blue);
+}
+
+.social-button:hover {
+  background-color: var(--basic-middle-blue);
+}
+
+.social-button:active {
+  background-color: var(--basic-deep-blue);
+}
+
+.footer-copyright {
+  font-weight: 400;
+}
+
+.copyright-logo {
+  color: inherit;
+  background-color: var(--basic-white);
+}
+
+path:hover {
+  fill:var(--basic-light-blue);
+}
+
+path:active {
+  fill:var(--basic-deep-gray);
+}
